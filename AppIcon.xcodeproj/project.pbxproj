@@ -8,22 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		F913E2F125D1D7B1003E8990 /* AppIconTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = F913E2F025D1D7B1003E8990 /* AppIconTools.swift */; };
-		F9E1CCB725CF3D0200745BBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E1CCB625CF3D0200745BBA /* AppDelegate.swift */; };
+		F9C087C325DC6799001E7015 /* AppIconApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C087C225DC6799001E7015 /* AppIconApp.swift */; };
 		F9E1CCB925CF3D0200745BBA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E1CCB825CF3D0200745BBA /* ContentView.swift */; };
 		F9E1CCBB25CF3D0200745BBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9E1CCBA25CF3D0200745BBA /* Assets.xcassets */; };
 		F9E1CCBE25CF3D0200745BBA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9E1CCBD25CF3D0200745BBA /* Preview Assets.xcassets */; };
-		F9E1CCC125CF3D0200745BBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9E1CCBF25CF3D0200745BBA /* Main.storyboard */; };
 		F9E1CCCC25CF3D7200745BBA /* IconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E1CCCB25CF3D7200745BBA /* IconView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F913E2F025D1D7B1003E8990 /* AppIconTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIconTools.swift; sourceTree = "<group>"; };
+		F9C087C225DC6799001E7015 /* AppIconApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIconApp.swift; sourceTree = "<group>"; };
 		F9E1CCB325CF3D0200745BBA /* AppIcon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppIcon.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F9E1CCB625CF3D0200745BBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9E1CCB825CF3D0200745BBA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F9E1CCBA25CF3D0200745BBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9E1CCBD25CF3D0200745BBA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		F9E1CCC025CF3D0200745BBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F9E1CCC225CF3D0200745BBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9E1CCC325CF3D0200745BBA /* AppIcon.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppIcon.entitlements; sourceTree = "<group>"; };
 		F9E1CCCB25CF3D7200745BBA /* IconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconView.swift; sourceTree = "<group>"; };
@@ -59,12 +57,11 @@
 		F9E1CCB525CF3D0200745BBA /* AppIcon */ = {
 			isa = PBXGroup;
 			children = (
-				F9E1CCB625CF3D0200745BBA /* AppDelegate.swift */,
+				F9C087C225DC6799001E7015 /* AppIconApp.swift */,
 				F9E1CCB825CF3D0200745BBA /* ContentView.swift */,
 				F9E1CCCB25CF3D7200745BBA /* IconView.swift */,
 				F913E2F025D1D7B1003E8990 /* AppIconTools.swift */,
 				F9E1CCBA25CF3D0200745BBA /* Assets.xcassets */,
-				F9E1CCBF25CF3D0200745BBA /* Main.storyboard */,
 				F9E1CCC225CF3D0200745BBA /* Info.plist */,
 				F9E1CCC325CF3D0200745BBA /* AppIcon.entitlements */,
 				F9E1CCBC25CF3D0200745BBA /* Preview Content */,
@@ -137,7 +134,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9E1CCC125CF3D0200745BBA /* Main.storyboard in Resources */,
 				F9E1CCBE25CF3D0200745BBA /* Preview Assets.xcassets in Resources */,
 				F9E1CCBB25CF3D0200745BBA /* Assets.xcassets in Resources */,
 			);
@@ -152,23 +148,12 @@
 			files = (
 				F913E2F125D1D7B1003E8990 /* AppIconTools.swift in Sources */,
 				F9E1CCB925CF3D0200745BBA /* ContentView.swift in Sources */,
+				F9C087C325DC6799001E7015 /* AppIconApp.swift in Sources */,
 				F9E1CCCC25CF3D7200745BBA /* IconView.swift in Sources */,
-				F9E1CCB725CF3D0200745BBA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		F9E1CCBF25CF3D0200745BBA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F9E1CCC025CF3D0200745BBA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F9E1CCC425CF3D0200745BBA /* Debug */ = {
@@ -222,7 +207,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -277,7 +262,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -294,6 +279,7 @@
 				CODE_SIGN_ENTITLEMENTS = AppIcon/AppIcon.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1002;
 				DEVELOPMENT_ASSET_PATHS = "\"AppIcon/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = AppIcon/Info.plist;
@@ -301,7 +287,8 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = fr.jeyries.AppIcon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -316,6 +303,7 @@
 				CODE_SIGN_ENTITLEMENTS = AppIcon/AppIcon.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1002;
 				DEVELOPMENT_ASSET_PATHS = "\"AppIcon/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = AppIcon/Info.plist;
@@ -323,7 +311,8 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = fr.jeyries.AppIcon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

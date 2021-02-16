@@ -38,18 +38,18 @@ struct IconView: View {
                 
                 HStack(alignment: VerticalAlignment.center, spacing: spacing  ) {
                     
-                    ButtonView(text: add, offset: offset)
-                    ButtonView(text: multiply, offset: offset)
-                    ButtonView(text: percent, font: Font.system(size: 120).bold())
+                    ButtonView(systemName: "plus")
+                    ButtonView(systemName: "multiply")
+                    ButtonView(systemName: "percent", size: 130)
                     
                 }
                 
                 HStack(spacing: spacing) {
                     
-                    ButtonView(text: substract, offset: offset)
-                    ButtonView(text: divide, offset: offset)
-                    ButtonView(text: equal, offset: offset, color: .pink)
-                    
+                    ButtonView(systemName: "minus")
+                    ButtonView(systemName: "divide")
+                    ButtonView(systemName: "equal", color: .pink)
+
                 }
             }
             
@@ -70,12 +70,11 @@ struct IconView_Previews: PreviewProvider {
     }
 }
 
+
 struct ButtonView: View {
     
-    var text: String
-    var offset: CGFloat = 0
-    //var size: CGFloat = 200
-    var font: Font = Font.system(size: 200)
+    var systemName: String
+    var size: CGFloat = 150
     var color: Color = Color("buttonLighGray")
 
     var body: some View {
@@ -84,14 +83,9 @@ struct ButtonView: View {
             color
                 .cornerRadius(50)
                 .frame(width: 200, height: 200)
-                
-            Text(verbatim: text)
-                .lineLimit(1)
-                //.minimumScaleFactor(0.5)
-                .foregroundColor(Color.white)
-                .font(font)
-                //.font(Font.system(size: size))
-                .offset(y: offset)
+            
+            Image(systemName: systemName)
+                .font(Font.system(size: size).bold())
             
         }
         .frame(width: 200, height: 200)
@@ -102,5 +96,4 @@ struct ButtonView: View {
     
     
 }
-
 
