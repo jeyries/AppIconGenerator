@@ -12,4 +12,4 @@ For rendering the icon, we use the `bitmapImageRepForCachingDisplay` method.
 
 Here is a screenshot:
 
-![](screenshot.png)
+![](screenshot.webp)
