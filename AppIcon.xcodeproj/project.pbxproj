@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F913E2F125D1D7B1003E8990 /* AppIconTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = F913E2F025D1D7B1003E8990 /* AppIconTools.swift */; };
 		F9C087C325DC6799001E7015 /* AppIconApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C087C225DC6799001E7015 /* AppIconApp.swift */; };
 		F9E1CCB925CF3D0200745BBA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E1CCB825CF3D0200745BBA /* ContentView.swift */; };
 		F9E1CCBB25CF3D0200745BBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9E1CCBA25CF3D0200745BBA /* Assets.xcassets */; };
@@ -16,7 +15,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F913E2F025D1D7B1003E8990 /* AppIconTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIconTools.swift; sourceTree = "<group>"; };
 		F9C087C225DC6799001E7015 /* AppIconApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIconApp.swift; sourceTree = "<group>"; };
 		F9E1CCB325CF3D0200745BBA /* AppIcon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppIcon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9E1CCB825CF3D0200745BBA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,7 +58,6 @@
 				F9C087C225DC6799001E7015 /* AppIconApp.swift */,
 				F9E1CCB825CF3D0200745BBA /* ContentView.swift */,
 				F9E1CCCB25CF3D7200745BBA /* IconView.swift */,
-				F913E2F025D1D7B1003E8990 /* AppIconTools.swift */,
 				F9E1CCBA25CF3D0200745BBA /* Assets.xcassets */,
 				F9E1CCC225CF3D0200745BBA /* Info.plist */,
 				F9E1CCC325CF3D0200745BBA /* AppIcon.entitlements */,
@@ -146,7 +143,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F913E2F125D1D7B1003E8990 /* AppIconTools.swift in Sources */,
 				F9E1CCB925CF3D0200745BBA /* ContentView.swift in Sources */,
 				F9C087C325DC6799001E7015 /* AppIconApp.swift in Sources */,
 				F9E1CCCC25CF3D7200745BBA /* IconView.swift in Sources */,
@@ -207,7 +203,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -262,7 +258,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -281,13 +277,13 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1002;
 				DEVELOPMENT_ASSET_PATHS = "\"AppIcon/Preview Content\"";
+				DEVELOPMENT_TEAM = DUG7QVRS59;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = AppIcon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = fr.jeyries.AppIcon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -305,13 +301,13 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1002;
 				DEVELOPMENT_ASSET_PATHS = "\"AppIcon/Preview Content\"";
+				DEVELOPMENT_TEAM = DUG7QVRS59;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = AppIcon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = fr.jeyries.AppIcon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
